@@ -15,7 +15,6 @@ for command in commands:
 print(distance * depth)
 
 # part 2
-
 distance = 0
 depth = 0
 aim = 0
