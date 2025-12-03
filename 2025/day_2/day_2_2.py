@@ -8,7 +8,6 @@ def main():
             for segment_length in range(len(id_str)//2, 0, -1):
                 segments = [id_str[i:i+segment_length] for i in range(0, len(id_str), segment_length)]
                 if len(set(segments)) == 1: 
-                    # print(id)
                     invalid_sum += id
                     break
                 
